@@ -14,3 +14,14 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+$(document).ready(function(){
+    $('#button').click(function(){
+        $('#sho').show();
+    })
+    console.log("start");
+})
+//   $(document).ready(function() {
+//     $('[name="report[details]"]').multiselect();
+//     console.log('sta')
+//   });
