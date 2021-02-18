@@ -1,0 +1,8 @@
+<%= form_tag( form_submit_path , remote: true) %>
+    <%= label_tag :name %>
+    <%= text_field_tag (:name) %>
+    <%= label_tag :details  %>
+    
+    <%= select_tag(:details, options_for_select([["Riyas",1], ["Javid",2], ["Yacub",3]]),
+{:multiple=>true, :id => "details"}) %>
+    <%= submit_tag %>

@@ -1,0 +1,4 @@
+console.log("index.js.erb")
+$(document).ready(function(){
+    $("#index").html(`<%= j render 'form', rep: @rep %>`);
+});

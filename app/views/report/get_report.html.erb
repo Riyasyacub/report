@@ -1,2 +1,14 @@
 <h1>Report#get_report</h1>
 <p>Find me in app/views/report/get_report.html.erb</p>
+<div id="reports">
+<% @rep.each do |r| %>
+    <%= r.name %>
+    <%= r.details %>
+<% end %>
+</div>
+<div id="index" >
+    <%= link_to "new", root_path , remote: true %>
+</div>
+<script>
+    console.log("get_report");
+</script>

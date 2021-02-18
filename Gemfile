@@ -27,6 +27,8 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
  gem 'mongoid', '~> 6.0'
 gem 'bson_ext'
+gem 'rails_admin', '~> 2.0', '>= 2.0.2'
+gem 'kaminari-mongoid', '~> 1.0', '>= 1.0.1'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 

@@ -1,4 +1,4 @@
-class UserReport
+class Rep
   include Mongoid::Document
   include Mongoid::Timestamps
 
